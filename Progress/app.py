@@ -6,19 +6,18 @@ import pandas as pd
 import numpy as np
 import dash_table
 import pickle
-import dash_bootstrap_components as dbc
+
 external_stylesheets =  'https://codepen.io/chriddyp/pen/bWLwgP.css'
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-#app.css.append_css({"external_url": 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
-#app = dash.Dash(__name__)
+
 app.layout = html.Div(
     children = [
         html.H1(
             className = "row",
             style = {'textAlign': 'center', 'font-size': '30px'},
             children = [
-                html.Div(children= 'Prime-Time : an Interesting Trivia Finder')
+                html.Div(children= 'Prime Time: Interesting Trivia Finder')
             ]
         ),
         html.Div(
