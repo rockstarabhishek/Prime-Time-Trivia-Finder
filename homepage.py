@@ -12,7 +12,7 @@ app.layout = html.Div([
         className = "row",
         style = {'textAlign': 'center', 'font-size': '30px'},
         children = [
-            html.Div(children= 'Prime Time: Interesting Trivia Finder')
+            html.Div(children= 'Prime-Time : an Interesting Trivia Finder')
         ]
     ), 
     html.Div([
